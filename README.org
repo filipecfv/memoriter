@@ -31,7 +31,7 @@ In the terminal, type:
 
 *** Notes on memorizing:
  * By default, =memoriter= will require you to recall /every single/ character of the poem (with the exception of outer spaces), including all sorts of punctuation, such as commas and periods.
- * Therefore, the reason why =memoriter= may say you failed to recall /Sir, I admit your general rule,/ may lie in answering /Sir, I admit your general rule/: sometimes a comma means a lot.   
+ * Therefore, the reason why =memoriter= may say you failed to recall "Sir, I admit your general rule," may lie in answering "Sir, I admit your general rule": sometimes a comma means a lot. 
 
 *** Notes on adding poems: 
  * The =poems/= directory contains other examples of poems for testing; 
