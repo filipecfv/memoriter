@@ -1,4 +1,6 @@
-* memoriter: memoriter morās iterat
+* memoriter 
+memoriter morās iterat
+
 A simple command line poetry memorizer.
 
 Demo:
@@ -20,7 +22,7 @@ It consists of an iterative method explained by [[https://youtu.be/MuVhPN22IUs][
    
 ** Basic Usage
 In the terminal, type: 
- * =python3 memoriter [poem_file]= to memorize [poem_file];
+ * =python3 memoriter [poem_file]= to memorize =[poem_file]=;
  * =python3 memoriter -h= to print help. 
    
 ** Usage example
@@ -38,7 +40,7 @@ In the terminal, type:
  * By default, =memoriter= will read the positional argument (i.e., the command right after =memoriter=) as the file present in the same repository from which you call it or as the path to the file. Thus, if your =poem.txt= were in the same folder as =memoriter=, it would be enough to type =python3 memoriter poem.txt=, while if it were in =my_library/=, you should pass the full path from the directory where you are running =memoriter=, i.e., =python3 memoriter my_library/poem.txt=.
 
 ** The name
-=memoriter= is the recursive acronym of =memoriter morās iterat=:
+=memoriter= is the recursive acronym of *memoriter morās iterat*:
 
 #+begin_src 
    MEMORITER    MORAS    ITERAT
@@ -46,8 +48,13 @@ In the terminal, type:
 #+end_src
 
 Meaning
- * [[https://en.wiktionary.org/wiki/memoriter#Latin][=memoriter=]] is a Latin adverb that means /from memory, by heart/;
- * [[https://en.wiktionary.org/wiki/mora#Latin][=morās=]] is the plural accusative of =mora=, which means a certain amount of time. In classical prosody and poetry, a =mora= reffers to the time quantity of a given syllable: a short one would take the time of a single =mora=; a long one (such as in =morās=), the time of two =morae=.
- * [[https://en.wiktionary.org/wiki/itero#Latin][=iterat=]] is the third-person singular present active indicative of the present infinitive =iterāre=, which means to repeat, to iterate.  
+ * [[https://en.wiktionary.org/wiki/memoriter#Latin][memoriter]] is a Latin
+ adverb that means /from memory, by heart/;
+ * [[https://en.wiktionary.org/wiki/mora#Latin][morās]] is the plural 
+ accusative of /mora/, which means a certain amount of time. In classical 
+ prosody and poetry, a /mora/ reffers to the time quantity of a given 
+ syllable: a short one would take the time of a single /mora/; a long one 
+ (such as in /morās/), the time of two /morae/.
+ * [[https://en.wiktionary.org/wiki/itero#Latin][iterat]] is the third-person singular present active indicative of the present infinitive =iterāre=, which means to repeat, to iterate.  
 
-github.com/e-silveira owns the credits for provinding me with the name.
+[[github.com/e-silveira][github.com/e-silveira]] owns the credits for provinding me with the name.
