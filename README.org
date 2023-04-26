@@ -45,7 +45,7 @@ you can add it to your PATH.
 To do that, add the following line to your =~/.bash_profile=: 
 
 #+begin_src 
-export PATH=$PATH:/path/to/memoriter.
+export PATH=$PATH:/path/to/memoriter
 #+end_src 
 
 For example: if the =memoriter= file is in =~/Documents/memoriter/=,
