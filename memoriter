@@ -7,6 +7,7 @@ Credits:
     for the name: github.com/e-silveira
     for the method: Alexandre Soares Silva
 License: GPL-3.0
+Repository: github.com/filipecfv/memoriter
 """
 
 import argparse
@@ -123,7 +124,9 @@ if (__name__ == "__main__"):
     parser = argparse.ArgumentParser(
             prog = 'memoriter', 
             description = 'memoriter morās iterat: \
-            a simple command line poetry memorizer.')
+            a simple command line poetry memorizer.', 
+            epilog = 'for more information, check out the repository in \
+                    https://github.com/filipecfv/memoriter')
     parser.add_argument('poem', type = str,
                         help = 'poem or list to be memorized')
     args = parser.parse_args()
